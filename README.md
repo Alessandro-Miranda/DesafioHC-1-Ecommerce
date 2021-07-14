@@ -16,7 +16,7 @@ Criar uma landing page para recebimento de novidades e promoções - onde os dad
 - [ ] Cadastre seu e-mail para receber promoções;
 - [ ] Dados no localstorage;
 
-## Inicialização
+## Inicialização :computer:
 
 Primeiro, clone este projeto para sua máquina. Abra o terminal e cole o seguinte comando:
 
