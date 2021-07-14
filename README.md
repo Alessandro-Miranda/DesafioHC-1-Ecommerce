@@ -34,7 +34,7 @@ Com todas as dependências instaladas, basta executar o comando:
 
 > npm start
 
-E pronto!! A aplicação estará rodando no endereço: localhost:3000
+E pronto!! A aplicação estará rodando no endereço: http://localhost:3000/
 
 ## Ferramentas :wrench:
 - [React](https://pt-br.reactjs.org/)
