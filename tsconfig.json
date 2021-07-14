@@ -22,7 +22,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "src/components/Header/style.tsx"  ],
   "exclude": [
     "node_modules"
   ]
