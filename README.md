@@ -1,4 +1,4 @@
-# Desafio #1 Hiring Coders - Ecommerce
+# Desafio #1 Hiring Coders #2 - Ecommerce
 
 ## Descrição :page_facing_up:
 
