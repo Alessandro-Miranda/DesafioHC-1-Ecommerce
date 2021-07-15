@@ -34,7 +34,9 @@ const Banner = () => {
                 </H2>
             </ThemeProvider>
 
-            <Form />
+            <Form {...{
+                formTitle: 'Cadastre seu e-mail e receba as melhores promoções'
+            }} />
         </MainBanner>
     );
 }
