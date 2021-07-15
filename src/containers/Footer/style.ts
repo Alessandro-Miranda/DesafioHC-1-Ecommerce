@@ -9,6 +9,13 @@ export const FooterContainer = style.footer`
     flex-direction: column;
     justify-content: space-between;
     margin-top: 100px;
+
+    @media screen and (min-width: 700px)
+    {
+        width: 405px;
+        margin-inline: auto;
+        padding: 25px 0;
+    }
 `;
 
 export const Div = style.div`
@@ -16,6 +23,11 @@ export const Div = style.div`
     font-size: 16px;
     margin: 0 auto 25px auto;
     text-align: center;
+
+    @media screen and (min-width: 700px)
+    {
+        margin: 30px auto 46px auto;
+    }
 `;
 
 export const Small = style.small`
