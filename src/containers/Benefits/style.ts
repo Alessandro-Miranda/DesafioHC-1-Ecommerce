@@ -5,5 +5,5 @@ export const Section = style.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 60px auto 0 auto;
+    margin: 30px auto 0 auto;
 `;
