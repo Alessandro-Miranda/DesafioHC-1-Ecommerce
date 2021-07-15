@@ -13,8 +13,8 @@ const Benefits = () => {
         <Section>
             <SectionTitles {...informations} />
             {
-                cardsDatas.map(cardInfo => {
-                    return <Card {...cardInfo} />
+                cardsDatas.map((cardInfo, index) => {
+                    return <Card {...cardInfo} key={index} />
                 })
             }
         </Section>
