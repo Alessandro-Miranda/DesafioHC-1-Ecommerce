@@ -17,10 +17,6 @@ export const GlobalStyle = createGlobalStyle`
         font: inherit;
         vertical-align: baseline;
     }
-    *, *::after, *::before
-    {
-        box-sizing: inherit;
-    }
     body
     {
         background-color: var(--primaryColor);
