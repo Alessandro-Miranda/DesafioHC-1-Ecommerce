@@ -36,12 +36,55 @@ export const HeaderNav = style.nav`
         color: var(--primaryColor);
         font-size: 1.575rem;
     }
+
+    @media screen and (min-width: 700px)
+    {
+        transform: translateY(0%);
+        background: none;
+        position: relative;
+        width: max-content;
+        margin-left: auto;
+        margin-right: 137px;
+    }
+`;
+
+export const HeaderUl = style.ul`
+    @media screen and (min-width: 700px)
+    {
+        display: flex;
+        flex-direction: row;
+    }
 `;
 
 export const HeaderLi = style.li`
     text-transform: uppercase;
     text-align: center;
-    padding: 20px 0;
+    padding: 24px 0;
     font-weight: 600;
     border-bottom: 1px solid var(--primaryColor);
+
+    @media screen and (min-width: 700px)
+    {
+        padding: 20px 0;
+        transition: border-color .4s ease-out;
+
+        &.selected
+        {
+            font-weight: 500;
+            opacity: .75;
+            border-bottom: 2px solid var(--finishColor);
+        }
+
+        &:nth-child(2)
+        {
+            margin-left: 43px;
+            margin-right: 43px;
+        }
+
+        &:hover
+        {
+            cursor: pointer;
+            border-bottom: 2px solid var(--finishColor);   
+        }
+    }
 `;
