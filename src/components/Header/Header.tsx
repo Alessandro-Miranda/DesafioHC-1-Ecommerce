@@ -3,7 +3,8 @@ import {
     HeaderContainer,
     MenuIcon,
     HeaderNav,
-    HeaderLi
+    HeaderLi,
+    HeaderUl
 } from './style';
 
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -40,8 +41,8 @@ const Header = () => {
                     icon={faTimes}
                     onClick={toggleShowMenu}
                 />
-                <ul>
-                    <HeaderLi>
+                <HeaderUl>
+                    <HeaderLi className="selected">
                         Home
                     </HeaderLi>
                     <HeaderLi>
@@ -50,7 +51,7 @@ const Header = () => {
                     <HeaderLi>
                         Contato
                     </HeaderLi>
-                </ul>
+                </HeaderUl>
             </HeaderNav>
         </HeaderContainer>
     )
