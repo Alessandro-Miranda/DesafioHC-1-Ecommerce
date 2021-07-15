@@ -27,7 +27,7 @@ export const HeaderNav = style.nav`
     position: absolute;
     top: 0;
     left: 0;
-    transition: transform .3s ease-in-out;
+    transition: transform .1s ease;
     transform: translateY(-100%); 
     svg {
         position: absolute;
