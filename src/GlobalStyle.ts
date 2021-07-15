@@ -31,4 +31,11 @@ export const GlobalStyle = createGlobalStyle`
     {
         list-style: none;
     }
+    @media screen and (min-width: 700px)
+    {
+        #root
+        {
+            max-width: 1400px;
+        }
+    }
 `;
