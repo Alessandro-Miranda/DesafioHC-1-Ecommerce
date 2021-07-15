@@ -15,7 +15,7 @@ const Header = () => {
     const menuList = useRef();
 
     const toggleShowMenu = () => {
-        const list = menuList.current as HTMLUListElement;
+        const list = menuList.current as HTMLElement;
 
         if(menuIsOpen)
         {
