@@ -7,12 +7,14 @@ export const Container = style.section`
     flex-align: center;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 50px;
 `;
 
 export const H3 = style.h3`
     font-weight: 500;
     font-size: 20px;
     text-align: center;
+    text-transform: ${props => props.theme && props.theme.textTransform}
 `;
 
 export const Input = style.input`
