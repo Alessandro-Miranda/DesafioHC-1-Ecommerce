@@ -11,16 +11,6 @@ export const Section = style.section`
     {
         width: 100%;
         margin: 100px auto 0 auto;
-
-        & > h1
-        {
-            font-size: 24px;
-
-            & > span
-            {
-                transform: translateY(-400%);
-            }
-        }
     }
 `;
 
