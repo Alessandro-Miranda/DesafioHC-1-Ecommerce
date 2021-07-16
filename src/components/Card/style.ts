@@ -5,7 +5,17 @@ export const Article = style.article`
     height: max-content;
     background: #201F1F;
     margin: 50px auto 0 auto;
-    padding: 25px 0 50px 20px
+    padding: 25px 0 50px 20px;
+
+    @media screen and (min-width: 700px)
+    {
+        width: 350px;
+
+        &:nth-child(2)
+        {
+            border: 2px solid var(--finishColor);
+        }
+    }
 `;
 
 export const Svg = style.svg`
