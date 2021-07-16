@@ -17,7 +17,7 @@ const Section = style.section`
     {
         display: none;
     }
-    
+
     @media screen and (min-width: 700px)
     {
         flex-direction: row;
@@ -27,6 +27,7 @@ const Section = style.section`
 
         & aside
         {
+            display: flex;
             justify-self: flex-end;
             position: relative;
         }
