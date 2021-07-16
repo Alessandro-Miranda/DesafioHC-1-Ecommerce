@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../../components/Card/Card';
-import { Section } from './style';
+import { CardsContainer, Section } from './style';
 import { cardsDatas } from '../../data/cardsDatas';
 import SectionTitles from '../../components/SectionTitles/SectionTitles';
 
@@ -12,11 +12,13 @@ const Benefits = () => {
     return (
         <Section>
             <SectionTitles {...informations} />
-            {
-                cardsDatas.map((cardInfo, index) => {
-                    return <Card {...cardInfo} key={index} />
-                })
-            }
+                <CardsContainer>
+                    {
+                        cardsDatas.map((cardInfo, index) => {
+                            return <Card {...cardInfo} key={index} />
+                        })
+                    }
+                </CardsContainer>
         </Section>
     );
 }
