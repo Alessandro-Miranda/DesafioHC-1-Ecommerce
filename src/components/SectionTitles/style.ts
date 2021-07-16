@@ -11,6 +11,7 @@ export const Span = style.span`
     @media screen and (min-width: 700px)
     {
         width: 75px;
+        transform: translateY(-400%);
     }
 `;
 
@@ -19,6 +20,11 @@ export const H1 = style.h1`
     line-height: 35px;
     font-weight: var(--fontSemibold);
     font-size: 20px;
+
+    @media screen and (min-width: 700px)
+    {
+        font-size: 24px;
+    }
 `;
 
 export const P = style.p`
