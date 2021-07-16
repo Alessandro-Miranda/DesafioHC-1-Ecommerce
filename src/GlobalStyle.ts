@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
         color: var(--secundaryColor);
         line-height: 1.5;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
+        font-weight: var(---fontRegular);
     }
     ul
     {
