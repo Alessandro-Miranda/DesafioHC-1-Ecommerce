@@ -8,6 +8,11 @@ const Span = style.span`
     height: 2px;
     background: var(--finishColor);
     transform: rotate(90deg);
+
+    @media screen and (min-width: 700px)
+    {
+        width: 95px;
+    }
 `;
 
 const SectionBreak = () => {
