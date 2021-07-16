@@ -5,7 +5,12 @@ export const GlobalStyle = createGlobalStyle`
     {
         --primaryColor: #000000;
         --secundaryColor: #D9D9D9;
-        --finishColor: #A60321; 
+        --finishColor: #A60321;
+        --fontLight: 300;
+        --fontRegular: 400;
+        --fontMedium: 500;
+        --fontSemibold: 600;
+        --fontBold: 700;
     }
     *
     {
@@ -36,6 +41,7 @@ export const GlobalStyle = createGlobalStyle`
         #root
         {
             max-width: 1400px;
+            margin: 0 auto;
         }
     }
 `;
