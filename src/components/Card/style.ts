@@ -14,11 +14,11 @@ export const Svg = style.svg`
 `;
 
 export const H1 = style.h1`
-    font-weight: 700;
+    font-weight: var(--fontBold);
     margin-bottom: 30px;
 `;
 
 export const P = style.p`
-    font-weight: 300;
+    font-weight: var(--fontLight);
     max-width: 80%;
 `;
