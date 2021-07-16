@@ -7,6 +7,11 @@ export const Span = style.span`
     height: 1.5px;
     margin-right: 20px;
     transform: translateY(-250%);
+
+    @media screen and (min-width: 700px)
+    {
+        width: 75px;
+    }
 `;
 
 export const H1 = style.h1`
