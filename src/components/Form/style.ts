@@ -45,4 +45,11 @@ export const Button = style.button`
     outline: none;
     height: 50px;
     color: var(--secundaryColor);
+    transition: opacity .2s ease-in;
+
+    &:hover
+    {
+        cursor: pointer;
+        opacity: .8;
+    }
 `;
