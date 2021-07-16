@@ -4,6 +4,7 @@ import { Button, Container, H3, Input } from './style';
 
 type Props = {
     formTitle: string;
+    className?: string;
 };
 
 const Form = (props: Props) => {
@@ -14,7 +15,7 @@ const Form = (props: Props) => {
     }
 
     return (
-        <Container>
+        <Container className={props.className}>
             <H3>{props.formTitle}</H3>
             <form method="post">
                 <Input
