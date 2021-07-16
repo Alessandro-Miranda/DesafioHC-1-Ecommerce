@@ -11,7 +11,7 @@ export const Container = style.section`
 `;
 
 export const H3 = style.h3`
-    font-weight: 500;
+    font-weight: var(--fontMedium);
     font-size: 20px;
     text-align: center;
     text-transform: ${props => props.theme && props.theme.textTransform}
@@ -27,7 +27,7 @@ export const Input = style.input`
     height: 50px;
     color: var(--secundaryColor);
     padding: 0 25px;
-    font-weight: 300;
+    font-weight: var(--fontLight);
     &:focus
     {
         outline: none;

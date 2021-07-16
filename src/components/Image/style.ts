@@ -38,7 +38,7 @@ export const Span = style.span`
     position: absolute;
     bottom: 40px;
     color: var(--finishColor);
-    font-weight: 700;
+    font-weight: var(--fontBold);
     font-size: 20px;
     text-transform: uppercase;
     left: calc(100% / 2);

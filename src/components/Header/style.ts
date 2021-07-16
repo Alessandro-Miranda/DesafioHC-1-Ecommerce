@@ -60,7 +60,7 @@ export const HeaderLi = style.li`
     text-transform: uppercase;
     text-align: center;
     padding: 24px 0;
-    font-weight: 600;
+    font-weight: var(--fontSemibold);
     border-bottom: 1px solid var(--primaryColor);
 
     @media screen and (min-width: 700px)
@@ -70,7 +70,7 @@ export const HeaderLi = style.li`
 
         &.selected
         {
-            font-weight: 500;
+            font-weight: var(--fontMedium);
             opacity: .75;
             border-bottom: 2px solid var(--finishColor);
         }

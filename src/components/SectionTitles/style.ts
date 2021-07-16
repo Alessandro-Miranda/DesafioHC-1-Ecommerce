@@ -12,13 +12,13 @@ export const Span = style.span`
 export const H1 = style.h1`
     width: 100%;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: var(--fontSemibold);
     font-size: 20px;
 `;
 
 export const P = style.p`
     font-size: 14px;
     color: var(--finishColor);
-    font-weight: 600;
+    font-weight: var(--fontSemibold);
     margin-top: 4px;
 `;
