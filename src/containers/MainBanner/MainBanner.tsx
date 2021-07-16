@@ -12,6 +12,12 @@ const Section = style.section`
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+
+    @media screen and (min-width: 700px)
+    {
+        flex-direction: row;
+        max-width: 100%;
+    }
 `;
 
 const MainBanner = (props: Props) => {
