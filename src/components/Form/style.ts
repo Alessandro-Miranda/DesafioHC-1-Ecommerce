@@ -34,11 +34,18 @@ export const Input = style.input`
     }
 `;
 
+export const ErrorNotification = style.span`
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--finishColor);
+`;
+
 export const Button = style.button`
     text-transform: uppercase;
     width: 80%;
     display: block;
-    margin: 25px auto 0 auto;
+    margin: 35px auto 0 auto;
     padding: 0 15px;
     background: var(--finishColor);
     border-radius: 5px;
