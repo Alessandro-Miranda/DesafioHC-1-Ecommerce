@@ -23,7 +23,7 @@ const Section = style.section`
         flex-direction: row;
         max-width: 100%;
         justify-content: flex-start;
-        margin-top: 80px;
+        margin-top: 50px;
 
         & aside
         {
