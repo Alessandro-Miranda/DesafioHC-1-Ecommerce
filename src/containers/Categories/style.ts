@@ -7,7 +7,8 @@ export const Section = style.section`
     @media screen and (min-width: 700px)
     {
         width: 100%;
-        margin: 120px 0 0 0;
+        margin: 150px 0 150px 0;
+        padding: 0 155px;
     }
 `;
 
@@ -18,9 +19,9 @@ export const ImagesContainer = style.div`
     @media screen and (min-width: 700px)
     {
         display: grid;
-        grid-template-columns: repeat(14, 75px);
+        grid-template-columns: repeat(10, 75px);
         grid-template-rows: repeat(7, 75px);
-        gap: 53.5px 35px;
+        gap: 28px 10px;
         margin-top: 50px;
     }
 `;
