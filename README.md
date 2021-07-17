@@ -10,11 +10,11 @@ Criar uma landing page para recebimento de novidades e promoções - onde os dad
 
 ## Entregáveis :mailbox_closed:
 
-- [ ] Site Oficial / Landing page
-- [ ] Template do site oficial
+- [x] Site Oficial / Landing page
+- [x] Template do site oficial
 - [x] Landing page de promoções, estilo black friday;
-- [ ] Cadastre seu e-mail para receber promoções
-- [ ] Dados no localstorage
+- [x] Cadastre seu e-mail para receber promoções
+- [x] Dados no localstorage
 
 ## Inicialização :computer:
 
