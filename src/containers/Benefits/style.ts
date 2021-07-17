@@ -11,6 +11,7 @@ export const Section = style.section`
     {
         width: 100%;
         margin: 100px auto 0 auto;
+        padding: 0 155px;
     }
 `;
 
