@@ -3,6 +3,7 @@ import style from 'styled-components';
 export const Div = style.div`
     max-width: 100%;
     width: max-content;
+    height: max-content;
     position: relative;
     margin-top: 15px;
 
@@ -31,9 +32,35 @@ export const Div = style.div`
             grid-row-start: 4;
         }
 
-        & > picture:nth-child(2)
+        // Efeito sombreamento
+        &:first-of-type picture::after
         {
-            background: blue;
+            max-width: 1000px;
+            width: 405px;
+            max-height: 600px;
+            height: 590px;
+            opacity: 0;
+            transition: opacity .2s ease-in;
+        }
+
+        &:nth-child(2) picture::after, &:nth-child(3) picture::after
+        {
+            max-width: 1000px;
+            width: 614px;
+            max-height: 600px;
+            height: 281px;
+            opacity: 0;
+            transition: opacity .2s ease-in;
+        }
+
+        &:hover picture::after
+        {
+            opacity: .7;
+        }
+        &:hover picture + span
+        {
+            opacity: 1;
+            bottom: 30px;
         }
     }
 `;
@@ -78,16 +105,6 @@ export const Img = style.img`
     {
         width: max-content;
         height: auto;
-
-        &:first-of-type
-        {
-            width: 405px;
-        }
-
-        &:nth-child(2), &:nth-child(3)
-        {
-            width: 800px;
-        }
     }
 `;
 
@@ -100,4 +117,11 @@ export const Span = style.span`
     text-transform: uppercase;
     left: calc(100% / 2);
     transform: translateX(-50%);
+
+    @media screen and (min-width: 700px)
+    {
+        opacity: 0;
+        bottom: 0px;
+        transition: opacity .2s ease-in, bottom .2s ease-in; 
+    }
 `;
