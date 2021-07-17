@@ -52,6 +52,7 @@ export const DesktopFormContainer = style.div`
     @media screen and (min-width: 700px)
     {
         width: 550px;
+        margin-left: 150px;
     
         & section.bannerForm
         {
@@ -83,7 +84,7 @@ export const DesktopImageContainer = style.div`
     @media screen and (min-width: 700px)
     {
         display: block;
-        margin-left: 185px;
+        margin-left: 0px;
         margin-right: 47px;
     }
 `;
