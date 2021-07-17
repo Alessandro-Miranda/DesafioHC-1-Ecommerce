@@ -9,7 +9,8 @@ export const Article = style.article`
 
     @media screen and (min-width: 700px)
     {
-        width: 350px;
+        width: 300px;
+        height: 350px;
 
         &:nth-child(2)
         {
